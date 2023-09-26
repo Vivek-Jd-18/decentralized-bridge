@@ -1,7 +1,8 @@
 const ethers = require("ethers");
 const sepBridgeABI = require("../utils/ABI/ethBridge.json");
 const Web3 = require("web3")
-// to burn tokens of Sepolia 
+// to burn tokens of Sepolia
+ 
 async function main() {
 
   const privateKey = "488b4c368013bbb3feb381d2795a316bd1d2d153d49d150596bded29de46d202";
